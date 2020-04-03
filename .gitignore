@@ -2,4 +2,6 @@
 /cloud-api-common/target
 /cloud-consumer-order80/target
 /cloud-provider-payment8001/target
+/cloud-provider-payment8002/target
 /cloud-eureka-service7001/target
+/cloud-eureka-service7002/target
