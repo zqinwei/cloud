@@ -6,6 +6,7 @@ SpringCloud+SpringBoot+SpringCloudAlibaba
   
 springcloud全家桶与其他替换组建学习测试  
   
+  
 注册中心: 
   
 一、eureka  AP  
@@ -43,4 +44,8 @@ ps:进程内负载均衡与集中式负载均衡比较；
 断路器:  
   
 一、hystrix  
-1.  
+1.防止雪崩效应  
+2.服务降级(fallback):异常，超时，熔断，线程池或信号量打满时直接返回一个兜底的结果  
+3.服务限流(flowlimit):秒杀高并发等操作,排队一个个处理  
+4.服务熔断(break):达到最大访问量，直接拒绝访问，返回服务降级方法结果  
+5.还可用于隔离，监控等  
