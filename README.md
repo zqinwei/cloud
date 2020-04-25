@@ -47,4 +47,9 @@ ps:监控需要在主启动内配置默认路径；
 服务网关  
 一、gateway  
 1.异步非阻塞  
-2.  
+2.路由，断言，过滤  
+3.gateway-->handler mapping-->web handler  
+4.yml配置与编码配置  
+5.根据微服务名动态路由  
+6.RoutePredicateFactory  
+7.自定义过滤器：全局日志记录，统一网关鉴权等  
