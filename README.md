@@ -53,3 +53,17 @@ ps:监控需要在主启动内配置默认路径；
 5.根据微服务名动态路由  
 6.RoutePredicateFactory  
 7.自定义过滤器：全局日志记录，统一网关鉴权等  
+  
+  
+配置中心  
+一、config  
+1.集中，动态外部配置管理配置文件  
+2.bootstrap.yml  
+3./actuator/refresh:单机手动动态刷新  
+  
+  
+消息总线  
+一、bus  
+1.对config的加强  
+2.消息代理：rabbitmq,kafka  
+3.消息被所有实例监听和消息  
