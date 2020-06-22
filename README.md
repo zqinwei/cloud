@@ -67,3 +67,10 @@ ps:监控需要在主启动内配置默认路径；
 1.对config的加强  
 2.消息代理：rabbitmq,kafka  
 3.消息被所有实例监听和消息  
+4.引入rabbitmq订阅模式，通过总控通知客户端  
+5.指定通知，增加目的地{desination},服务名+端口号，类似：/actuator/bus-refresh/config-client:3355  
+  
+  
+消息驱动  
+一、stream  
+1.  
